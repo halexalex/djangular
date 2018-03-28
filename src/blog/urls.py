@@ -3,9 +3,9 @@ from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.generic.base import TemplateView
-from rest_framework_jwt.views import obtain_jwt_token
 
 from ang.views import AngularTemplateView
+from rest_framework_jwt.views import obtain_jwt_token
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

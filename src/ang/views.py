@@ -1,7 +1,7 @@
 import os
 
 from django.conf import settings
-from django.http import HttpResponse, Http404
+from django.http import Http404, HttpResponse
 from django.views.generic import View
 
 

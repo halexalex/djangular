@@ -13,8 +13,8 @@ from posts.api.pagination import (PostLimitOffsetPagination,
                                   PostPageNumberPagination)
 from posts.api.permissions import IsOwnerOrReadOnly
 
-from .serializers import (CommentCreateSerializer, CommentDetailSerializer, CommentListSerializer,
-                          create_comment_serializer)
+from .serializers import (CommentCreateSerializer, CommentDetailSerializer,
+                          CommentListSerializer, create_comment_serializer)
 
 
 class CommentCreateAPIView(CreateAPIView):

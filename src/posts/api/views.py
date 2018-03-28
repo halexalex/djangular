@@ -18,6 +18,7 @@ from .serializers import (PostCreateUpdateSerializer, PostDetailSerializer,
 class PostCreateAPIView(CreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostCreateUpdateSerializer
+
     # permission_classes = [IsAuthenticated]
 
     def perform_create(self, serializer):

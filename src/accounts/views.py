@@ -17,7 +17,7 @@ def login_view(request):
         if next:
             return redirect(next)
         return redirect("/")
-    return render(request, "form.html", {"form":form, "title": title})
+    return render(request, "form.html", {"form": form, "title": title})
 
 
 def register_view(request):
